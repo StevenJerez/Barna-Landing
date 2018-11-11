@@ -1,0 +1,98 @@
+body {
+    overflow-x: hidden;
+}
+.infotext {
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #1B2353;
+}
+.social-icons {
+    display: inline;
+    border-left: 2px solid lightgray;
+    padding: 10px 0;
+    padding-left: 16px;
+    margin-left: 12px;
+}
+.social-icons img {
+    height: 20px;
+    vertical-align: sub;
+}
+.social-icons img:not(:last-child){
+    margin-right: 8px;
+}
+.nav-barna .btn {
+    border-radius: 0;
+    padding: 12px 18px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 -4px;
+}
+.nav-barna .btn:nth-child(1){
+    background-color: #037E40;
+}
+.nav-barna .btn:nth-child(2) {
+    background-color: #02A428;
+}
+.nav-barna .btn:nth-child(3) {
+    background-color: #023D83;
+}
+.cta {
+    padding: 5em 36px;
+    background: rgb(24, 71, 119);
+    background: linear-gradient(90deg, rgba(24, 71, 119, 1) 6%, rgba(3, 126, 64, 1) 100%);
+}
+.cta-text {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-text {
+    padding: 4em 0;
+}
+.about-title {
+    font-size: 30px;
+    color: #002475;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 32px;
+}
+.about p {
+    font-size: 20px;
+    font-family: 'Montserrat',
+    sans-serif;
+    color: #002475;
+    font-weight: 500;
+    margin-top: 32px;
+    line-height: 32px;
+}
+.about p span {
+    font-size: 30px;
+}
+.about button {
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: bold;
+}
+.images {
+    padding: 4em 0;
+    background-image: url('../1x/images-bg.JPG');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.images::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.50)
+}
+.images-container img.active{
+    zoom: 1.3;
+}
