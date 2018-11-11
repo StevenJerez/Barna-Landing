@@ -242,7 +242,13 @@ body {
     padding-right: 1em;
     padding-left: 1em;
 }
-
+.part-info {
+    font-weight: 300;
+    font-family: 'Montserrat',
+    sans-serif;
+    color: #fff;
+    display: block;
+}
 .instagram {
     padding: 2em 0 4em;
 }
