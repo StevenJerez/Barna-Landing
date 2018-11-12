@@ -32,10 +32,13 @@ if(isset($_POST['team_name']))
         {
             $comp_name  = $data["competitor_name"][$key];
             $comp_email = $data['competitor_email'][$key];
-            $model->insertValues  = "'$comp_name', '$comp_email', '$last_id'";
-            $model->Create();          
-            echo $model->mensaje;                      
+            if($comp_name != '' && $comp_email != '')
+            {
+                $model->insertValues  = "'$comp_name', '$comp_email', '$last_id'";
+                $model->Create();    
+            }                 
         }   
+        echo $model->mensaje; 
     }
     
 }

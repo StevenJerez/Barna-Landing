@@ -152,37 +152,37 @@
             <div class="row">
                <div class="col-md-12">
                   <label for="">¡Ponle nombre a tu equipo!</label>
-                  <input type="text" name="team_name">
+                  <input type="text" name="team_name" required>
                </div>
             </div>
             <div class="row">
                <div class="col-md-6 mt-5">
                   <label for="">Nombres Líder del Equipo</label>
-                  <input type="text" name="team_lead">
+                  <input type="text" name="team_lead" required>
                </div>
                <div class="col-md-6 mt-5">
                   <label for="">Apellido</label>
-                  <input type="text" name="team_last_name">
+                  <input type="text" name="team_last_name" required>
                </div>
             </div>
             <div class="row">
                <div class="col-md-6 mt-5">
                   <label for="">Institución/Colegio</label>
-                  <input type="text" name="team_college">
+                  <input type="text" name="team_college" required>
                </div>
                <div class="col-md-6 mt-5">
                   <label for="">Correo Electrónico</label>
-                  <input type="text" name="team_mail">
+                  <input type="text" name="team_mail" required>
                </div>
             </div>
             <div class="row">
                <div class="col-md-6 mt-5">
                   <label for="">Teléfono</label>
-                  <input type="text" name="team_phone">
+                  <input type="text" name="team_phone" required>
                </div>
                <div class="col-md-6 mt-5">
                   <label for="">Edad</label>
-                  <input type="text" name="team_age">
+                  <input type="text" name="team_age" required>
                </div>
             </div>
 
@@ -192,11 +192,11 @@
                   <div class="row competitor_inputs">
                      <div class="col-md-6 mt-5">
                         <label for="">Nombre</label>
-                        <input type="text" name="competitor_name[]">
+                        <input type="text" name="competitor_name[]" required>
                      </div>
                      <div class="col-md-6 mt-5">
                         <label for="">Correo</label>
-                        <input type="email" name="competitor_email[]">
+                        <input type="email" name="competitor_email[]" required>
                      </div>
                   </div>
                </div>
@@ -238,6 +238,8 @@
       <script src="js/bootstrap.js"></script>
       <script src="js/slick.min.js"></script>
       <script src="js/main.js"></script>
+      <script src="js/sweetalert2.all.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
       <script>
          $('.main-slider').slick({
              dots: true
