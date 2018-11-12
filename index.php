@@ -88,7 +88,7 @@
                desafío a tus competencias <br>
                de liderazgo.
             </p>
-            <button class="btn btn-primary">Arma tu equipo</button>
+            <a role="button" href="#form-container" class="btn btn-primary">Arma tu equipo</a>
          </div>
          <div class="col-md-6 about-img">
             <img src="1x/section-1.png" style="position: absolute; bottom: 0; z-index: -1;" class="img-fluid" alt="">
@@ -143,7 +143,7 @@
          </div>
       </div>
    </section>
-   <section class="form-container">
+   <section class="form-container" id="form-container">
       <div class="container">
          <span class="form-title text-center">Estos juegos en equipo se realizarán en una sola jornada, en los espacios abiertos del<br> nuevo campus de Barna, el 15 de diciembre del 2018.</span>
          <h2 class="text-center"><span class="badge badge-pill badge-primary">Arma tu equipo</span></h2>
