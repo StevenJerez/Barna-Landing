@@ -1,6 +1,6 @@
 <?php
   require "conexion.php";
-
+ 
   class Functions{
     //insert
     public $insertInto;
@@ -33,10 +33,10 @@
         $consulta = $conexion->prepare($sql);
         //
           if(!$consulta){
-            $this->mensaje = "ERROR AL CREAR EL REGISTRO";
+            $this->mensaje = "err";
           } else{
             $consulta->execute();
-            $this->mensaje = "Registro creado correctamente";
+            $this->mensaje = "ok";
           }
       }
       public function Read(){
@@ -105,5 +105,23 @@
         }
       }
 
-    //
+      function max_id($team, $email)
+      {
+        $model = new Conexion;
+        $conexion = $model->conectar();
+        $temp = array();
+        $sql = "SELECT 
+                  MAX(t.`ID`) AS 'ID'
+                FROM
+                  `teams` t 
+               WHERE t.`team` = '{$team}' 
+                  AND t.`email` = '{$email}'";
+        $consulta = $conexion->prepare($sql);
+        $consulta->execute();
+        while($filas = $consulta->fetch()){
+                $temp[]  = $filas;
+        }
+        return $temp[0];
+      }
+      
   }
