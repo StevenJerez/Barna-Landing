@@ -17,7 +17,7 @@ function send_frm()
                           'success'
                         )
                     $('.frm_save')[0].reset();
-                    location.reload();
+                    $('.cln').remove();
                 }else{
                    swal(
                           'error',
@@ -38,7 +38,7 @@ function send_frm()
 
 $('.add').on('click', function(){ 
 	var count = $('.competitor_inputs').length;
-	var html = `<div class="row competitor_inputs">
+	var html = `<div class="row competitor_inputs cln">
                      <div class="col-md-6 mt-5">
                         <label for="">Nombre</label>
                         <input type="text" name="competitor_name[]" required="required">
