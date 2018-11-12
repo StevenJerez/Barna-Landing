@@ -11,3 +11,7 @@ function send_frm()
 		}
 	});
 }
+
+$('.add').on('click', function(){
+	$('.competitor_inputs').clone().appendTo('.competitors');
+});
