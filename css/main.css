@@ -310,4 +310,7 @@ img.object-fit {
         display: -ms-flexbox;
         display: flex;
     }
+    .snapwidget-widget {
+        height: auto !important;
+    }
 }
