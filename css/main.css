@@ -305,10 +305,9 @@ img.object-fit {
         justify-content: center;
     }
 
-    .nav-barna .ml-auto {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+    .nav-barna .text-right .btn {
+        display: block;
+        width: 100%;
     }
     .snapwidget-widget {
         height: auto !important;

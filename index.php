@@ -4,13 +4,15 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>BBA BARNA</title>
+      <title>LEADERSHIP GAMES</title>
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="css/main.css">
       <link rel="stylesheet" href="css/slick.css">
       <link rel="stylesheet" href="css/slick-theme.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Font -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+       <link rel="shortcut icon" href="https://bba.barna.edu.do/wp-content/themes/barna/assets/icons/favicon.ico" type="image/x-icon">
    </head>
    <nav class="navbar navbar-light sticky-top" style="background-color: #ffffff; padding: 32px">
       <div class="container">
@@ -28,14 +30,19 @@
          </div>
       </div>
    </nav>
-   <nav class="navbar nav-barna" style="background-color: #184777; padding-top: 0; padding-bottom: 0;">
+   <nav class="navbar nav-barna navbar-dark navbar-expand-lg" style="background-color: #184777; padding-top: 0; padding-bottom: 0;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <div class="container">
-         <div class="ml-auto">
+         <div class="text-right">
             <button class="btn">BBA BARNA</button>
             <button class="btn">CHANGE MAKERS</button>
             <button class="btn">BIG IDEA PROGRAM</button>
          </div>
       </div>
+    </div>
    </nav>
    <div class="main-slider">
       <div class="slide">
