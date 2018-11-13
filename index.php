@@ -12,20 +12,19 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Font -->
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-       <link rel="shortcut icon" href="https://bba.barna.edu.do/wp-content/themes/barna/assets/icons/favicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="https://bba.barna.edu.do/wp-content/themes/barna/assets/icons/favicon.ico" type="image/x-icon">
    </head>
    <nav class="navbar navbar-light sticky-top" style="background-color: #ffffff; padding: 32px">
       <div class="container">
-         <a class="navbar-brand" href="#">
+         <a class="navbar-brand" href="https://bba.barna.edu.do/">
          <img src="1x/logo.png" height="50" alt="">
          </a>
          <div class="navbar-text">
             <span class="infotext">INFO</span>
             <div class="social-icons">
-               <a href=""><img src="1x/twitter.png" alt=""></a>
-               <a href=""><img src="1x/facebook.png" alt=""></a>
-               <a href=""><img src="1x/instagram.png" alt=""></a>
-               <a href=""><img src="1x/youtube.png" alt=""></a>
+               <a href="fb.me/bachelorbbabarna" target="_blank"><img src="1x/facebook.png" alt=""></a>
+               <a href="instragram.com/bbabarna" target="_blank"><img src="1x/instagram.png" alt=""></a>
+               <a href="https://www.linkedin.com/company/bbabarna/" target="_blank"><img src="1x/linkedin.png" alt=""></a>
             </div>
          </div>
       </div>
@@ -55,13 +54,13 @@
             </div>
          </div>
       </div>
-      <div class="slide">
+      <div class="slide slide-2">
          <div class="row">
             <div class="col-md-6">
                <img class="img-fluid" src="1x/leadership-games.png" alt="">
             </div>
             <div class="col-md-6 text-center">
-               <img src="1x/dab-guy.png" alt="">
+               <img src="1x/dancing-girl.jpg" alt="">
             </div>
          </div>
       </div>
@@ -69,7 +68,7 @@
    <div class="cta text-center">
       <div class="row">
          <div class="col-md-6 text-md-right text-sm-center">
-            <img src="1x/cta-date.png" alt="">
+            <img srcset="1x/cta-date.png, 1x/cta-date@2x.png" src="1x/cta-date.png" alt="">
          </div>
          <div class="col-md-6">
             <span class="cta-text text-sm-center text-md-left">¡Creemos y apostamos <br> a tú liderazgo!</span>
@@ -114,7 +113,7 @@
    </section>
    <section class="ready">
       <div class="container">
-         <span class="ready-title text-center d-block">Queremos ver que poseas las capacidades de un verdadero <b>Líder.</b></span>
+         <span class="ready-title text-center d-block">Ven y desarrolla las capacidades de un verdadero <b>Líder.</b></span>
          <div class="row mt-3">
             <div class="col-md-3 col-sm-6 col-6">
                <div class="ready-cont text-center">
@@ -178,32 +177,16 @@
             <div class="row">
                <div class="col-md-6 mt-5">
                   <label for="">Teléfono</label>
-                  <input type="text" name="team_phone" required>
+                  <input type="phone" name="team_phone" required>
                </div>
                <div class="col-md-6 mt-5">
                   <label for="">Edad</label>
                   <input type="text" name="team_age" required>
                </div>
             </div>
-
-
-               <span class="part-info mt-5">Participantes:</span>
+               <span class="part-info mt-5">Registra tus datos como lider del equipo, ponle un nombre y lista a sus miembros; si no tienes equipo, inscríbete y te incorporaremos a alguno. No dejes pasar la oportunidad de participar.</span>
                <div class="competitors">
-                  <div class="row competitor_inputs">
-                     <div class="col-md-6 mt-5">
-                        <label for="">Nombre</label>
-                        <input type="text" name="competitor_name[]" required>
-                     </div>
-                     <div class="col-md-6 mt-5">
-                        <label for="">Correo</label>
-                        <input type="email" name="competitor_email[]" required>
-                     </div>
-                  </div>
                </div>
-
-
-
-
             <div class="text-center">
                <div role="button" class="add">+ Añadir Participantes</div>
             </div>
@@ -215,21 +198,26 @@
    </section>
    <section class="instagram">
       <div class="container">
-         <div class="ig-title"><img src="1x/instagram-lg.png" alt=""> <span>@BBABARNA</span></div>
-         <!-- SnapWidget -->
-         <iframe src="https://snapwidget.com/embed/622032" class="snapwidget-widget mt-5" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:300px"></iframe>
+         <div class="info text-center">
+            <span class="font-weight-bold">
+               Lugar: Nuevo Campus | Barna | Ave. J. F. Kennedy KM.7 1/2<br> Los Prados, Santo Domingo. <br><br>
+               Día: 15 de diciembre del 2018<br> No tiene costos - Cupos Límitados <br><br>
+               ¿Qué esperas?<br>Inscribe a tu equipo y vive esta experiencia con nosotros.</span>
+         </div>
+         <div class="ig-title mt-5"><img src="1x/instagram-lg.png" alt=""> <span>@BBABARNA</span></div>
+         <div id="instafeed" class="mt-5"></div>
          <div style="width: 80%; margin: auto;" class="mt-5">
             <hr style="border-color: #0E4776">
          </div>
          <div class="info text-center mt-5">
             <span class="font-weight-bold">¿Quieres más información sobre nuestro BBA?</span> <br>
             <span class="mt-4 d-block">
-            Contactanos <br>
-            bba.barna.edu.do | 809 683 4461 <br>
-            bba@barna.edu.do <br>
+            Contáctanos <br>
+            <a href="https://bba.barna.edu.do" target="_blank">bba.barna.edu.do</a> | 809 683 4461 <br>
+            <a href="mailto:bba@barna.edu.do">bba@barna.edu.do</a> <br>
             Av. John F. Kennedy #34, Naco. Santo Domingo Este. <br>
             </span>
-            <img src="1x/logo-barna.png"  class="img-fluid mt-5" alt="">
+            <a href="https://barna.edu.do"><img src="1x/logo-barna.png"  class="img-fluid mt-5" alt=""></a>
          </div>
       </div>
    </section>
@@ -240,10 +228,25 @@
       <script src="js/main.js"></script>
       <script src="js/sweetalert2.all.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+      <script src="js/jquery.mask.js"></script>
+      <script src="js/instafeed.min.js"></script>
       <script>
          $('.main-slider').slick({
              dots: true
          });
+         $('[type=phone]').mask('000-0000-0000');
+
+      </script>
+      <script type="text/javascript">
+         var feed = new Instafeed({
+            get: 'user',
+            userId: '8543394110',
+            accessToken: '8543394110.1677ed0.b135d828ebdf48e39f7e546746079e64',
+            limit: 4,
+            resolution: 'low_resolution',
+            template: '<a href="{{link}}"><img src="{{image}}" class="img-fluid"/></a>'
+         });
+         feed.run();
       </script>
    </body>
 </html>

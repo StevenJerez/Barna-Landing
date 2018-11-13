@@ -104,6 +104,8 @@ body {
     background-image: url('../1x/images-bg.JPG');
     background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -261,11 +263,20 @@ body {
     font-weight: bold
 }
 
-img.object-fit {
-    margin: 0 4px;
-    padding: 0px 12px;
+div#instafeed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
-
+div#instafeed a {
+    transition: opacity 300ms;
+}
+div#instafeed a:not(:last-child) {
+    margin-right: 12px;
+}
+div#instafeed a:hover {
+    opacity: 0.7;
+}
 .info {
     font-size: 20px;
     font-family: 'Montserrat',
