@@ -22,8 +22,8 @@
          <div class="navbar-text">
             <span class="infotext">INFO</span>
             <div class="social-icons">
-               <a href="fb.me/bachelorbbabarna" target="_blank"><img src="1x/facebook.png" alt=""></a>
-               <a href="instragram.com/bbabarna" target="_blank"><img src="1x/instagram.png" alt=""></a>
+               <a href="www.fb.me/bachelorbbabarna" target="_blank"><img src="1x/facebook.png" alt=""></a>
+               <a href="https://instragram.com/bbabarna" target="_blank"><img src="1x/instagram.png" alt=""></a>
                <a href="https://www.linkedin.com/company/bbabarna/" target="_blank"><img src="1x/linkedin.png" alt=""></a>
             </div>
          </div>
@@ -36,7 +36,7 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <div class="container">
          <div class="text-right">
-            <button class="btn">BBA BARNA</button>
+            <a href="https://bba.barna.edu.do/" class="btn">BBA BARNA</a>
             <button class="btn">CHANGE MAKERS</button>
             <button class="btn">BIG IDEA PROGRAM</button>
          </div>
@@ -136,7 +136,7 @@
                </div>
             </div>
          </div>
-         <span class="ready-info mt-sm-4 text-center">Habrán eliminatorias - puntuación y <br>solo tres equipos ganadores.</span>
+         <span class="ready-info mt-sm-4 text-center">Habrán eliminatorias + puntuación + tres equipos ganadores.</span>
          <div class="areyouready">
             <img src="1x/areyouready.png" class="img-fluid" alt="">
          </div>
@@ -232,9 +232,11 @@
       <script src="js/instafeed.min.js"></script>
       <script>
          $('.main-slider').slick({
-             dots: true
+             dots: true,
+             autoplay: true,
+             autoplaySpeed: 4000,
          });
-         $('[type=phone]').mask('000-0000-0000');
+         $('[type=phone]').mask('000-000-0000');
 
       </script>
       <script type="text/javascript">
